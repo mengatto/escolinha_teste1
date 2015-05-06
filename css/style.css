@@ -1,0 +1,354 @@
+/* CSS Document */
+/***********************************************************************************************************************
+									FONTES									
+/***********************************************************************************************************************/
+@font-face{ font-family: "Trebuchet"; src: url("../fonts/trebuc.ttf") format("opentype");}
+@font-face { font-family: "Trebuchetb"; src: url("../fonts/trebucbd.ttf") format("opentype");}
+
+
+body{margin:0px;padding:0px;background-color:#f4f4f4; font-family:"Trebuchet"; /*overflow:hidden;*/}
+
+
+/***********************************************************************************************************************
+									TEXTOS									
+/***********************************************************************************************************************/
+.h1{font-family:"Trebuchet"; font-size:20px;}
+.h2{font-family:"Trebuchet"; font-size:18px;}
+.h3{font-family:"Trebuchet"; font-size:16px;}
+.h4{font-family:"Trebuchet"; font-size:14px;}
+.txt-bold{font-family: "Trebuchetb";}
+.txt-555{color:#555;}
+/***********************************************************************************************************************
+									BOTÕES									
+/***********************************************************************************************************************/
+.button{cursor:pointer;}
+.btn-padrao{
+display: block; width: 100%; font-family:"Trebuchetb"; color:#666; font-size:15px; padding-left: 10px; padding-right: 0; height:40px; border-radius:6	px;border-bottom:1px solid #bdbdbd; border-top:none; border-left:none;
+background: #ffffff; /* Old browsers */background: -moz-linear-gradient(top,  #ffffff 16%, #d5d5d5 100%); /* FF3.6+ */background: -webkit-gradient(linear, left top, left bottom, color-stop(16%,#ffffff), color-stop(100%,#d5d5d5)); /* Chrome,Safari4+ */background: -webkit-linear-gradient(top,  #ffffff 16%,#d5d5d5 100%); /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top,  #ffffff 16%,#d5d5d5 100%); /* Opera 11.10+ */background: -ms-linear-gradient(top,  #ffffff 16%,#d5d5d5 100%); /* IE10+ */background: linear-gradient(to bottom,  #ffffff 16%,#d5d5d5 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d5d5d5',GradientType=0 ); /* IE6-9 */
+}
+.img-btn{
+	background:none;
+	border:none;
+}
+.btn-input{
+	display:inline-block;
+	padding: 1px 5px;
+	color: #555;
+	font-family: "Trebuchet";
+	font-size: 15px;
+	border-radius: 5px;
+	border:1px solid #aaa;
+}
+
+.btn-select{
+	width: 100%;
+	display: block;
+	padding: 1px 5px;
+	color: #555;
+	font-family: "Trebuchetb";
+	font-size: 15px;
+	border-radius: 5px;
+}
+.btn-nostyle{
+	display: inline;
+	width: 100%;
+	text-align: left;
+	background:none;
+	border:none;
+}
+
+.btn-verde{background:#2cc64a; color:#fff; width: 100%;	font-family:"Trebuchetb"; font-size:15px;border-bottom: 3px solid #2DA010;}
+.btn-laranja{background:#F99B3E; color:#fff; width: 100%;	font-family:"Trebuchetb"; font-size:15px;border-bottom: 3px solid #D67C22;}
+.btn-branco{background:#fff; color:#555; width: 100%;	font-family:"Trebuchetb"; font-size:15px;border-bottom: 3px solid #ccc;}
+/***********************************************************************************************************************
+									GERAL									
+/***********************************************************************************************************************/
+.margin-top{margin-top:20px;}
+.topo{
+	height:110px;
+	padding-top:10px;
+	border-bottom:2px solid #bdbdbd;
+	background: #ffffff; /* Old browsers */background: -moz-linear-gradient(top,  #ffffff 16%, #d5d5d5 100%); /* FF3.6+ */background: -webkit-gradient(linear, left top, left bottom, color-stop(16%,#ffffff), color-stop(100%,#d5d5d5)); /* Chrome,Safari4+ */background: -webkit-linear-gradient(top,  #ffffff 16%,#d5d5d5 100%); /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top,  #ffffff 16%,#d5d5d5 100%); /* Opera 11.10+ */background: -ms-linear-gradient(top,  #ffffff 16%,#d5d5d5 100%); /* IE10+ */background: linear-gradient(to bottom,  #ffffff 16%,#d5d5d5 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d5d5d5',GradientType=0 ); /* IE6-9 */
+}
+.topo-mobile{
+	height:80px;
+}
+.topo_sessao{
+	align-content:center;
+	background-color:#fff;
+	border-bottom:2px solid #bdbdbd;
+	height:65px;
+	margin-top:20px;
+	padding-top:10px;
+}
+	.topo_sessao .cont-topo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.topo_sessao .input_topo input{
+		height:63px;
+		border:none;
+	}
+/*RESPONSIVO TOPO SESSÃO*/	
+@media (max-width:768px){
+	.topo_sessao{
+		height:55px;
+	}
+		.topo_sessao .input_topo input{
+		height:53px;
+	}
+}
+	
+.menu{
+	margin-top:20px;
+}
+
+.titulo_form{
+	color:#555;
+	font-family:Trebuchetb;
+	font-size:18px;
+	padding-top:15px;
+	padding-bottom:5px;
+}
+/***********************************************************************************************************************
+									SLIDER									
+/***********************************************************************************************************************/
+
+.owl-carousel .article{
+	padding:0;
+	margin:10px;
+	height:110px;
+}
+	.owl-carousel .article img{
+		width:100%;
+		height:110px;
+		border:1px solid #bbbbbb;
+		border-radius:5px;
+	}
+	
+/***********************************************************************************************************************
+									PROFESSORA									
+/***********************************************************************************************************************/
+.campos_de_avaliacao{
+	margin:10px 0px;
+}
+	.campos_de_avaliacao .avaliacao{
+		display:inline;
+		background-color:#f5f5f5;
+		padding:10px;
+		border-radius:7px;	
+		border-top:#d5d5d5 1px solid;
+		border-bottom:#fff 1px solid;
+	}
+		.campos_de_avaliacao .avaliacao input{
+			margin:5px;
+			margin-right:10px;
+			padding:5px;
+		}
+		
+/***********************************************************************************************************************
+									MÃE									
+/***********************************************************************************************************************/
+/* TIME - LINE */
+.col-data{
+	padding:40px 10px;
+	text-align:right;
+	font-size:18px;
+	color:#555;
+	font-weight:bold;
+}
+
+.col-msg{
+	padding:40px 0px 20px 0px;
+	border-left:3px solid #31a4e5;
+}
+
+	.col-msg .msg-conteudo{
+		background-color:#31a4e5;
+		color:#fff;
+		padding:10px;
+	}
+		.col-msg .li-timeline{
+			position: absolute;
+			margin-left: -13px;
+			z-index: 9;
+			margin-top: -14px;
+		}
+	
+		.col-msg .msg-conteudo .titulo{
+			font-size:20px;
+		}
+		.col-msg .msg-conteudo .status{
+			font-size:16px;
+		}
+		.col-msg .msg-conteudo .corpo-msg{
+			margin-top:20px;
+		}
+
+/* CARDÁPIO */
+.item-cardapio{
+	height:85px;
+	padding:10px 0;
+}
+.mae-dia-cardapio{
+	padding:5px;
+	color:#fff;
+	background:#F99B3E;
+	border-right: 3px solid #D67C22;
+	margin:0px;
+	height:75px;
+	border-radius:0px;
+}
+	.mae-dia-cardapio h1{
+		margin-top:10px;
+	}
+.mae-cont-cardapio{
+	padding:7px;
+	height:75px;
+	background:#fff;
+	color:#D67C22;
+	border-right: 3px solid #ccc;
+}
+
+/***********************************************************************************************************************
+									DIRETORA									
+/***********************************************************************************************************************/
+.dir-topo{
+height:112px;
+border-bottom:2px solid #bdbdbd;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #d5d5d5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d5d5d5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#d5d5d5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#d5d5d5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#d5d5d5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#d5d5d5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d5d5d5',GradientType=0 ); /* IE6-9 */
+}
+.dir-menu{
+	font-size:22px;
+	font-weight:100;
+	font-family: 'Open Sans', sans-serif;
+	background-color:#47a3da;
+	border-right:2px solid #0d77b6;
+}
+.cbp-spmenu .dir-menu-h3{
+	background-color:#0d77b6;
+	color:#77d7fa;
+	border-bottom:none;
+}
+.dir-menu a {
+	border-bottom: 1px solid #258ecd;
+}
+.dir-menu a:hover {
+	text-decoration:none;
+}
+.dir-icon-menu {
+	border:none;
+	color:#48b3e5;
+	font-size:45px;
+	padding-left:20px;
+}
+.dir-icon-menu:focus{
+	outline:none;
+}
+	.active-btn{
+		color:#1b87c4;
+	}
+
+/* ROTINAS */
+.dir-rotinas{
+	border-right:2px solid #666;
+	position:absolute;
+	min-height:100%;
+}
+	.dir-rotinas h3{
+		margin-bottom:0px;
+	}
+
+.dir-nrotinas{
+	background-color:#48b3e5;
+	border-radius:7px;
+	color:#fff;
+	display: inline-block;
+	padding: 0px 15px;
+}
+	.dir-nrotinas h3{
+		margin-top:15px;
+	}
+	
+.dir-topo-sessao{
+	font-size:40px; 
+	text-align:left; 
+	color:#555; 
+	padding-top:0; 
+	padding-left:10px; 
+	height:55px;
+	border-bottom:0px;
+}
+	.dir-topo-sessao .input_topo{
+		margin-top:15px;
+	}
+.dir-subtopo-sessao{
+	background-color: #bebebe;
+	border-bottom: 2px solid #888;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	padding-top: 5px;
+}
+	.dir-subtopo-sessao .turma {
+		display:inline;
+		padding:0 0 0 10px;
+		
+	}
+	.dir-subtopo-sessao .data{
+		display:inline;
+		padding:0 10px 0 0;
+	}
+
+.dir-cont-accordion{
+}
+.dir-msg-aluno{
+	background-color:#666666;
+	padding:10px;
+	color:#fff;
+	border-bottom:#ccc 2px solid;
+}
+	.dir-msg-aluno .nome{
+		font-size:20px;
+	}
+		.dir-msg-aluno .nome .msg{
+			color: #21E04F;
+			margin-left: 20px;
+			cursor: pointer;
+			padding: 5px 10px;
+		}
+			.dir-msg-aluno .nome .msg:hover{
+				color:#000;
+			}
+	.dir-msg-aluno .status{
+		margin-top:20px;
+	}
+	.dir-msg-aluno img{
+		width:80px;
+		height:80px;
+	}
+
+/* MENSAGENS */
+.dir-mensagens {
+	margin-left:25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
